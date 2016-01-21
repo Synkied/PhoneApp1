@@ -50,7 +50,7 @@
             <StackPanel>
                 <TextBlock Text="Saisir votre nom" HorizontalAlignment="Center" />
                 <TextBox x:Name="Nom"  />
-                <Button Content="Valider" Tap="Button_Tap_1" />
+                <Button Content="Valider" Tap="Button_Tap" />
                 <TextBlock x:Name="Resultat" Foreground="Blue" />
             </StackPanel>
 

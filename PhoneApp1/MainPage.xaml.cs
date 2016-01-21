@@ -22,6 +22,11 @@ namespace PhoneApp1
             //BuildLocalizedApplicationBar();
         }
 
+        private void Button_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            Resultat.Text = "Bonjour " + Nom.Text;
+        }
+
         // Exemple de code pour la conception d'une ApplicationBar localisée
         //private void BuildLocalizedApplicationBar()
         //{
